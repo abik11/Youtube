@@ -10,6 +10,7 @@
 # .EXAMPLE
 # Save-YoutubeTextPlaylistAsMP3 -Playlist songs\playlist.txt
 # Save-YoutubeTextPlaylistAsMP3 -Playlist (ls songs\playlist.txt)
+# Save-YoutubeTextPlaylistAsMP3 songs.txt -out o1 -tmpout o2
 # .INPUTS
 # System.String
 #   A path of a file that contains a list of youtube video URI's
