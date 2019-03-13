@@ -18,3 +18,9 @@ The videos on the list must be separated by the new line, for example:
 https://www.youtube.com/watch?v=0mFFFc_oyBo
 https://www.youtube.com/watch?v=bAKYqXil5fM
 ```
+### Updating youtube-dl
+Often you may see an error with the following message:
+```
+Make sure you are using the latest version; type  youtube-dl -U  to update.
+```
+All you have to do to solve the issue is to run the command: `youtube-dl -U` as said in the error message, which will update youtube-dl to the newest version.
