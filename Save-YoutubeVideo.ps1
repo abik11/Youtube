@@ -29,7 +29,7 @@ function Save-YoutubeVideo {
         [string] $YoutubeDownloaderDir = "."
     )
     Begin {
-        [string]$Dir = Get-YoutubeDlDir -YTDir $YoutuveDownloaderDir
+        [string]$Dir = Get-YoutubeDlDir -YTDir $YoutubeDownloaderDir
     }
     Process {       
         Write-Verbose "Downloading the video..."
